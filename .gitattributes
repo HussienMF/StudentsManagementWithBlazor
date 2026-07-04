@@ -1,7 +1,14 @@
+# تجاهل أي ملف جافا سكريبت أو تصميم مضغوط أو جاهز في المشروع بالكامل
 *.js linguist-vendored
-*.json linguist-vendored
-StudentsManagement.Client/bin/** linguist-vendored
-StudentsManagement.Client/obj/** linguist-vendored
+*.min.js linguist-vendored
+*.css linguist-vendored
+*.min.css linguist-vendored
 
+# تجاهل مجلدات النظام المؤقتة ومجلد الحزم الجاهزة تماماً
+**/bin/** linguist-vendored
+**/obj/** linguist-vendored
+**/wwwroot/lib/** linguist-vendored
+
+# التركيز الكامل على إظهار كود السي شارب والـ Razor التي كتبتها
 *.cs linguist-detectable=true
 *.razor linguist-detectable=true

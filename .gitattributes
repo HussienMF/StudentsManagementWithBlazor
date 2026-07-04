@@ -1,4 +1,7 @@
-# تجاهل لغات التصميم والـ HTML الجاهزة والمضغوطة في المشروع بالكامل
+# إجبار غيت هب على حساب ملفات الـ Razor بالكامل كلغة سي شارب
+*.razor linguist-language=C#
+
+# تجاهل لغات التصميم والـ HTML بالكامل لكي لا تظهر في الشريط
 *.scss linguist-vendored
 *.css linguist-vendored
 *.html linguist-vendored
@@ -9,6 +12,5 @@
 **/obj/** linguist-vendored
 **/wwwroot/lib/** linguist-vendored
 
-# إبراز كود السي شارب والـ Razor وجعلها اللغات الأساسية المكتشفة
+# إبراز كود السي شارب وجعلها اللغة المكتشفة الأساسية
 *.cs linguist-detectable=true
-*.razor linguist-detectable=true

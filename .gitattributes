@@ -1,7 +1,9 @@
-# إخبار غيت هب بالتعرف على ملفات الـ Razor كملفات برمجية هامة
-*.razor linguist-detectable=true
+# إجبار الموقع على اعتبار الملفات التالية كملفات خارجية جاهزة وعدم حساب حجمها
+StudentsManagement.Client/bin/** linguist-vendored
+StudentsManagement.Client/obj/** linguist-vendored
+**/bin/** linguist-vendored
+**/obj/** linguist-vendored
 
-# إذا كان لديك مجلد يحتوي على مكتبات جافا سكريبت جاهزة (مثل lib أو الأسماء المماثلة)، أخبر الموقع بتجاهلها من الحساب البرمجي
-obj/** linguist-vendored
-bin/** linguist-vendored
-wwwroot/lib/** linguist-vendored
+# إجبار الموقع على إظهار ملفات السي شارب والـ Razor
+*.cs linguist-detectable=true
+*.razor linguist-detectable=true

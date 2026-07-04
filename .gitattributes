@@ -1,0 +1,7 @@
+# إخبار غيت هب بالتعرف على ملفات الـ Razor كملفات برمجية هامة
+*.razor linguist-detectable=true
+
+# إذا كان لديك مجلد يحتوي على مكتبات جافا سكريبت جاهزة (مثل lib أو الأسماء المماثلة)، أخبر الموقع بتجاهلها من الحساب البرمجي
+obj/** linguist-vendored
+bin/** linguist-vendored
+wwwroot/lib/** linguist-vendored

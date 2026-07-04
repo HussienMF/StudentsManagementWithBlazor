@@ -1,9 +1,0 @@
-# إجبار الموقع على اعتبار الملفات التالية كملفات خارجية جاهزة وعدم حساب حجمها
-StudentsManagement.Client/bin/** linguist-vendored
-StudentsManagement.Client/obj/** linguist-vendored
-**/bin/** linguist-vendored
-**/obj/** linguist-vendored
-
-# إجبار الموقع على إظهار ملفات السي شارب والـ Razor
-*.cs linguist-detectable=true
-*.razor linguist-detectable=true

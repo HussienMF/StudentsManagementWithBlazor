@@ -1,14 +1,14 @@
-# تجاهل أي ملف جافا سكريبت أو تصميم مضغوط أو جاهز في المشروع بالكامل
-*.js linguist-vendored
-*.min.js linguist-vendored
+# تجاهل لغات التصميم والـ HTML الجاهزة والمضغوطة في المشروع بالكامل
+*.scss linguist-vendored
 *.css linguist-vendored
-*.min.css linguist-vendored
+*.html linguist-vendored
+*.js linguist-vendored
 
-# تجاهل مجلدات النظام المؤقتة ومجلد الحزم الجاهزة تماماً
+# تجاهل مجلدات النظام المؤقتة ومجلد الحزم الجاهزة
 **/bin/** linguist-vendored
 **/obj/** linguist-vendored
 **/wwwroot/lib/** linguist-vendored
 
-# التركيز الكامل على إظهار كود السي شارب والـ Razor التي كتبتها
+# إبراز كود السي شارب والـ Razor وجعلها اللغات الأساسية المكتشفة
 *.cs linguist-detectable=true
 *.razor linguist-detectable=true

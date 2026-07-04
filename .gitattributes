@@ -1,0 +1,7 @@
+*.js linguist-vendored
+*.json linguist-vendored
+StudentsManagement.Client/bin/** linguist-vendored
+StudentsManagement.Client/obj/** linguist-vendored
+
+*.cs linguist-detectable=true
+*.razor linguist-detectable=true
